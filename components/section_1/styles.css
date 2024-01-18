@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+.eclipse {
+  width: 468px;
+  height: 468px;
+  position: absolute;
+  right: -62px;
+  top: -74px;
+  border-radius: 468px;
+  opacity: 0.5;
+  background: var(--Purple-900, #581c87);
+  filter: blur(150px);
+  z-index: 100;
+}
+.sec_1 {
+  display: flex;
+  padding: 160px 80px 80px 80px;
+  align-items: center;
+  gap: 80px;
+  align-self: stretch;
+  background: var(--Blue-Gray-900, #0f172a);
+}
+
+.col_1 {
+  display: flex;
+  padding: 80px 32px 80px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  margin-right: 650px;
+  flex: 1 0 0;
+  color: #ffffff;
+}
+.col_1 h1 {
+  align-self: stretch;
+  color: var(--White, #fff);
+
+  /* Heading/1 L */
+  font-family: Roboto;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 110%; /* 105.6px */
+}
+.col_1 span {
+  align-self: stretch;
+  color: var(--White, #fff);
+  /* Heading/4 */
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 44px */
+}
+.col_1 p {
+  color: var(--White, #fff);
+  /* Body/L */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.phone {
+  position: relative;
+  border-radius: 50px;
+  outline: 15px solid black;
+  z-index: 200;
+}
+
+.buttons {
+  display: flex;
+  gap: 40px;
+}
+.publish_btn {
+  color: black;
+}
+
+.line_purple {
+  position: absolute;
+  background-color: #c026d3;
+  width: 900px;
+  height: 32px;
+  top: 395px;
+  bottom: 150px;
+  left: 135vh;
+  z-index: 100;
+  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
