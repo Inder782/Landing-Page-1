@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section {
+  display: flex;
+  padding: 160px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  align-self: stretch;
+  background: var(--Blue-Gray-900, #0f172a);
+}
+.macbook {
+  z-index: 400;
+}
+.blue_eclipse {
+  width: 755px;
+  height: 592px;
+  position: absolute;
+  left: -150px;
+  top: 855px;
+  border-radius: 592px;
+  opacity: 0.1;
+  background: var(--Yellow-400, #facc15);
+  filter: blur(150px);
+}

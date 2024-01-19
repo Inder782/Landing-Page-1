@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section_3 {
+  display: flex;
+  padding: 80px;
+  align-items: center;
+  gap: 80px;
+  align-self: stretch;
+  background: var(--Blue-Gray-900, #0f172a);
+}
+
+.phone_bottom {
+  position: relative;
+  border-radius: 50px;
+  outline: 15px solid black;
+  z-index: 200;
+  margin-top: 4%;
+  left: 5%;
+}

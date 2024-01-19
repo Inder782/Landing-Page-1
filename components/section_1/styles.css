@@ -5,7 +5,7 @@
 body {
   overflow-x: hidden;
 }
-.eclipse {
+.glow_circle {
   width: 468px;
   height: 468px;
   position: absolute;
@@ -85,11 +85,105 @@ body {
 .line_purple {
   position: absolute;
   background-color: #c026d3;
-  width: 900px;
+  width: 100%;
   height: 32px;
-  top: 395px;
+  top: 419px;
   bottom: 150px;
-  left: 135vh;
+  left: 56%;
   z-index: 100;
   box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 500px;
+}
+.line_golden {
+  position: absolute;
+  background-color: #ca8a04;
+  width: 100%;
+  height: 32px;
+  top: 485px;
+  bottom: 150px;
+  left: 52%;
+  z-index: 100;
+  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 500px;
+}
+.line_magenta {
+  position: absolute;
+  background-color: #9333ea;
+  width: 100%;
+  height: 32px;
+  top: 565px;
+  bottom: 150px;
+  left: 47%;
+  z-index: 100;
+  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 500px;
+}
+
+.purple_curve {
+  position: absolute;
+  left: -43px;
+}
+
+.golden_curve {
+  position: absolute;
+  left: -43px;
+}
+
+.magenta_curve {
+  position: absolute;
+  left: -43px;
+}
+.vertical_line_pruple {
+  top: 62px;
+  left: -43px;
+  position: absolute;
+  width: 30px;
+  height: 1620px;
+  background-color: #c026d3;
+  border-radius: 50px;
+}
+.vertical_line_golden {
+  top: 50px;
+  left: -43px;
+  position: absolute;
+  width: 32px;
+  height: 1690px;
+  background-color: #ca8a04;
+  border-radius: 50px;
+}
+.vertical_line_magenta {
+  top: 50px;
+  left: -43px;
+  position: absolute;
+  width: 32px;
+  height: 1690px;
+  background-color: #9333ea;
+  border-radius: 50px;
+}
+
+.bottom_line_purple {
+  top: 5280%;
+  position: absolute;
+  width: 4930px;
+  height: 32px;
+  left: -5000px;
+  background-color: #c026d3;
+}
+.bottom_purple {
+  position: relative;
+  top: 1655.5px;
+  left: -79px;
+}
+.bottom_line_golden {
+  top: 1760px;
+  position: absolute;
+  width: 56%;
+  height: 32px;
+  left: -60%;
+  background-color: #ca8a04;
+}
+.bottom_golden {
+  position: absolute;
+  left: -78px;
+  top: 1725px;
 }

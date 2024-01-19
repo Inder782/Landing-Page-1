@@ -32,36 +32,47 @@ const Section = () => {
         alt="phone"
         className="phone"
       />
-      <span className="eclipse" />
-      <div className="purple">
-        <span className="line_purple" />
+      <span className="glow_circle" />
+
+      <div className="line_purple">
         <Image
-          src="/line_purple.png"
+          src="/purple_line.svg"
+          width={65}
+          height={65}
+          alt="purple"
+          className="purple_curve"
+        />
+        <span className="vertical_line_pruple" />
+        <span className="bottom_line_purple" />{" "}
+        <Image
+          src="/bottom_eclipse_purple.svg"
           width={67}
-          height={67}
-          alt="line"
-          className="purple_img"
+          height={65}
+          alt="purple"
+          className="bottom_purple"
         />
       </div>
-      <div className="golden_line">
+
+      <div className="line_golden">
         <Image
-          src="/line_golden.png"
+          src="/golden_line.svg"
           width={67}
           height={67}
           alt="line"
-          className="golden"
+          className="golden_curve"
         />
-        <span className="line_golden" />
+        <span className="vertical_line_golden" />
       </div>
-      <div className="magenta">
+      <div className="line_magenta">
         <Image
-          src="/line_magenta.png"
+          src="/magenta_line.svg"
           width={67}
           height={67}
           alt="line"
-          className="magenta"
+          className="magenta_curve"
         />
-        <span className="line_magenta" />
+
+        <div className="vertical_line_magenta" />
       </div>
     </section>
   );
