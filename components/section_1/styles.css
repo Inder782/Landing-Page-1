@@ -2,9 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  overflow-x: hidden;
-}
+/* Default styles for desktop */
+
 .glow_circle {
   width: 468px;
   height: 468px;
@@ -68,9 +67,6 @@ body {
 }
 
 .phone {
-  position: relative;
-  border-radius: 50px;
-  outline: 15px solid black;
   z-index: 200;
 }
 
@@ -85,7 +81,7 @@ body {
 .line_purple {
   position: absolute;
   background-color: #c026d3;
-  width: 100%;
+  width: 48%;
   height: 32px;
   top: 419px;
   bottom: 150px;
@@ -97,7 +93,7 @@ body {
 .line_golden {
   position: absolute;
   background-color: #ca8a04;
-  width: 100%;
+  width: 52%;
   height: 32px;
   top: 485px;
   bottom: 150px;
@@ -109,7 +105,7 @@ body {
 .line_magenta {
   position: absolute;
   background-color: #9333ea;
-  width: 100%;
+  width: 57%;
   height: 32px;
   top: 565px;
   bottom: 150px;

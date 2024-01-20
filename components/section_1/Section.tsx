@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Image from "next/image";
+import Section_3 from "../section_3/Section_3";
 const Section = () => {
   return (
     <section className="sec_1">
@@ -26,15 +27,15 @@ const Section = () => {
         </div>
       </div>
       <Image
-        src="/mobile_1.png"
-        width={290}
+        src="/iPhone_sec_1.svg"
+        width={345}
         height={600}
         alt="phone"
         className="phone"
       />
       <span className="glow_circle" />
 
-      <div className="line_purple">
+      <div className="line_purple ">
         <Image
           src="/purple_line.svg"
           width={65}
