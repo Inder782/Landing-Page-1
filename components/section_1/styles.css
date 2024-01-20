@@ -175,12 +175,25 @@ body {
   left: -79px;
 }
 .bottom_line_golden {
-  top: 1760px;
+  top: 5500%;
   position: absolute;
-  width: 56%;
+  width: 4930px;
   height: 32px;
-  left: -60%;
+  left: -5000px;
   background-color: #ca8a04;
+}
+.bottom_line_magenta {
+  top: 5500%;
+  position: absolute;
+  width: 4930px;
+  height: 32px;
+  left: -5000px;
+  background-color: #9333ea;
+}
+.bottom_magenta {
+  position: relative;
+  top: 1725px;
+  left: -79px;
 }
 .bottom_golden {
   position: absolute;

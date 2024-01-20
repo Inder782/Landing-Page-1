@@ -62,6 +62,14 @@ const Section = () => {
           className="golden_curve"
         />
         <span className="vertical_line_golden" />
+        <span className="bottom_line_golden" />
+        <Image
+          src="/bottom_eclipse_golden.svg"
+          width={67}
+          height={65}
+          alt="purple"
+          className="bottom_golden"
+        />
       </div>
       <div className="line_magenta">
         <Image
@@ -71,8 +79,15 @@ const Section = () => {
           alt="line"
           className="magenta_curve"
         />
-
+        <span className="bottom_line_magenta" />
         <div className="vertical_line_magenta" />
+        <Image
+          src="/bottom_eclipse_magenta.svg"
+          width={67}
+          height={65}
+          alt="purple"
+          className="bottom_magenta"
+        />
       </div>
     </section>
   );

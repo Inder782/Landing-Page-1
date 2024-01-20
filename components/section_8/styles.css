@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section_8 {
+  display: flex;
+  padding: 80px 80px 200px 80px;
+  align-items: center;
+  gap: 80px;
+  align-self: stretch;
+  background: var(--Blue-Gray-900, #0f172a);
+}
