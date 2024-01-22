@@ -8,6 +8,14 @@ const Section_8 = () => {
       className="section_8
   "
     >
+      <div className="content_sec_8">
+        <h1 className="title_sec_8">Launch your app today</h1>
+        <p className="p_sec_8">
+          Stay on top of your competition with a great performing app. <br />
+          Your time and energy are not wasted.
+        </p>
+        <button className="button_sec8">Publish App</button>
+      </div>
       <span className="ellipse_sec_8" />
       <Image
         src="/section_8/iPhone_sec_8.svg"
@@ -36,8 +44,46 @@ const Section_8 = () => {
         </div>
       </div>
 
-      <div className="golden_line_8"></div>
-      <div className="magenta_line_8"></div>
+      <div className="golden_line_8">
+        {" "}
+        <Image
+          src="/section_8/golden_top.svg"
+          width={67}
+          height={250}
+          alt="golden_top_sec_8"
+          className="golden_top_sec_8"
+        />
+        <span className="vertical_line_golden_sec_8" />
+        <div className="golden_line_bottom">
+          <Image
+            src="/section_8/golden_bottom.svg"
+            width={66}
+            height={35}
+            alt="golden_top_sec_8"
+            className="golden_bottom_sec_8"
+          />
+        </div>
+      </div>
+      <div className="magenta_line_8">
+        {" "}
+        <Image
+          src="/section_8/magenta_top.svg"
+          width={67}
+          height={250}
+          alt="magenta_top_sec_8"
+          className="magenta_top_sec_8"
+        />
+        <span className="magenta_line_vertical_sec_8" />
+        <div className="magenta_line_bottom">
+          <Image
+            src="/section_8/magenta_bottom.svg"
+            width={66}
+            height={35}
+            alt="golden_top_sec_8"
+            className="magenta_bottom_sec_8"
+          />
+        </div>
+      </div>
     </section>
   );
 };

@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import Navbar from "@/components/Navbar/Navbar";
 import Section from "@/components/section_1/Section";
 import Section_2 from "@/components/section_2/Section_2";
@@ -22,6 +23,7 @@ const page = () => {
       <Section_6 />
       <Section_7 />
       <Section_8 />
+      <Footer />
     </div>
   );
 };

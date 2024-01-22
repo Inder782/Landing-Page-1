@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer {
+  display: flex;
+  width: 1440px;
+  padding: 0px 80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: var(--Blue-Gray-900, #0f172a);
+}

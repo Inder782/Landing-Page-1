@@ -59,7 +59,7 @@
   width: 32px;
   height: 360px;
   left: 1005px;
-  top: 547%;
+  margin-top: 65px;
   position: absolute;
   background: #c026d3;
 }
@@ -70,10 +70,113 @@
   height: 32px;
   background: #ca8a04;
 }
+
+.golden_top_sec_8 {
+  margin-left: 1100px;
+  margin-top: -24px;
+  height: 115px;
+}
+.vertical_line_golden_sec_8 {
+  width: 32px;
+  height: 300px;
+  left: 847px;
+  margin-top: -30px;
+  position: absolute;
+  background: #ca8a04;
+}
+
+.golden_line_bottom {
+  display: flex;
+  width: 1060px;
+  height: 32px;
+  margin-top: 300px;
+  margin-left: 109%;
+  background: #ca8a04;
+}
+.golden_bottom_sec_8 {
+  margin-left: -64px;
+  margin-top: -58px;
+  height: 115px;
+}
 .magenta_line_8 {
   margin-top: -500px;
   margin-left: -1200px;
   width: 950px;
   height: 32px;
   background: #9333ea;
+}
+
+.magenta_top_sec_8 {
+  margin-left: 949px;
+  margin-top: -24px;
+  height: 115px;
+}
+
+.magenta_line_vertical_sec_8 {
+  width: 32px;
+  height: 250px;
+  left: 677px;
+  margin-top: -30px;
+  position: absolute;
+  background: #9333ea;
+}
+.magenta_bottom_sec_8 {
+  margin-left: 985px;
+  margin-top: 245px;
+  height: 115px;
+}
+.magenta_line_bottom {
+  display: flex;
+  width: 150vh;
+  height: 32px;
+  margin-top: 250px;
+  margin-left: 110%;
+  background: #9333ea;
+}
+.magenta_bottom_sec_8 {
+  margin-left: -60px;
+  margin-top: -58px;
+  height: 115px;
+}
+
+.title_sec_8 {
+  align-self: stretch;
+  color: var(--White, #fff);
+
+  /* Heading/4 */
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 44px */
+}
+.content_sec_8 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 350px;
+  margin-top: -150px;
+}
+.p_sec_8 {
+  align-self: stretch;
+  color: var(--White, #fff);
+  margin-top: 15px;
+  /* Body/L */
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+  margin-right: -150px;
+}
+.button_sec8 {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 2px solid var(--White, #fff);
+  background: var(--White, #fff);
+  margin-top: 50px;
+  width: 150px;
 }
