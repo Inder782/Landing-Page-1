@@ -13,7 +13,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="max-sm:overflow-hidden max-md:overflow-hidden max-lg:overflow-hidden">
+    <div className="">
       <Navbar />
       <Section />
       <Section_2 />
