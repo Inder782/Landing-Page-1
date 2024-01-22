@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles.css";
 import Image from "next/image";
-import Section_3 from "../section_3/Section_3";
 const Section = () => {
   return (
     <section className="sec_1">
