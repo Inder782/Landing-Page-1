@@ -33,15 +33,14 @@ const Section_8 = () => {
           className="purple_top_sec_8"
         />
         <span className="vertical_line_purple_sec_8" />
-        <div className="purple_line_bottom">
-          <Image
-            src="/section_8/purple_bottom.svg"
-            width={65}
-            height={350}
-            alt="purple_top_sec_8"
-            className="purple_bottom_sec_8"
-          />
-        </div>
+        <span className="purple_line_bottom" />
+        <Image
+          src="/section_8/purple_bottom.svg"
+          width={65}
+          height={350}
+          alt="purple_top_sec_8"
+          className="purple_bottom_sec_8"
+        />
       </div>
 
       <div className="golden_line_8">

@@ -3,9 +3,5 @@
 @tailwind utilities;
 
 body {
-  background: var(--Blue-Gray-900, #0f172a);
-}
-
-body {
   overflow-x: hidden;
 }

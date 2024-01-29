@@ -11,6 +11,11 @@
   position: absolute;
   background-color: #0f172a;
 }
+@media screen and (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
 .title {
   color: var(--White, #fff);
 

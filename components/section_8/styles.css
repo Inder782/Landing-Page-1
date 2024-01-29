@@ -44,15 +44,17 @@
 }
 .purple_line_bottom {
   display: flex;
-  width: 100vh;
-  height: 32px;
-  margin-top: 450px;
-  margin-left: 108%;
+  width: 850px;
+  height: 31px;
+  margin-top: 450.5px;
+  margin-left: 1185px;
   background: #c026d3;
 }
+
 .purple_bottom_sec_8 {
-  margin-left: -65px;
-  margin-top: -59px;
+  position: relative;
+  margin-left: 1123px;
+  margin-top: -90px;
   height: 115px;
 }
 .vertical_line_purple_sec_8 {
@@ -87,7 +89,7 @@
 
 .golden_line_bottom {
   display: flex;
-  width: 1060px;
+  width: 990px;
   height: 32px;
   margin-top: 300px;
   margin-left: 109%;
@@ -127,7 +129,7 @@
 }
 .magenta_line_bottom {
   display: flex;
-  width: 150vh;
+  width: 1150px;
   height: 32px;
   margin-top: 250px;
   margin-left: 110%;
