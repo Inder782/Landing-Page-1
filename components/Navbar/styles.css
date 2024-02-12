@@ -4,79 +4,57 @@
 
 .navbar {
   display: flex;
-  width: 100%;
-  padding: 24px 80px;
   justify-content: space-between;
-  align-items: center;
-  position: absolute;
   background-color: #0f172a;
+  color: antiquewhite;
+  padding: 1rem;
+  align-items: center;
 }
-@media screen and (max-width: 768px) {
-  .navbar {
-    display: none;
-  }
-}
-.title {
-  color: var(--White, #fff);
 
-  /* Heading/4 */
-  font-family: Roboto;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 110%; /* 44px */
+.logo {
+  color: white;
+  font-size: 35px;
 }
 .links {
-  color: var(--White, #fff);
-
-  /* Button/M */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.5px;
-}
-.links:hover {
-  border-bottom: 3px solid var(--White, #fff);
-  transform: scale(1.1); /* Example: Scale up on hover */
-}
-
-@keyframes textAnimation {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.login_btn {
-  display: flex;
-  padding: 12px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  border: 2px solid var(--White, #fff);
   color: white;
-  width: 105px;
+  padding: 0 1rem;
+
+  margin-right: 35rem;
 }
 
-.publish_btn {
+.buttons {
+  padding: 5px;
   display: flex;
-  padding: 12px;
+}
+.sheet {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius: 50px;
-  border: 2px solid var(--White, #fff);
-  background: var(--White, #fff);
+  color: aliceblue;
+  background-color: #0f172a;
+  border: none;
+}
+.log_in {
+  border: 2px solid white;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 2rem;
 }
 
-.button {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  gap: 50px;
-  padding: 0px 0px 0px 555px;
-  z-index: 200;
+.btn_1 {
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 2rem;
+}
+@media (max-width: 1435px) {
+  .links {
+    display: none;
+  }
+  .buttons {
+    display: none;
+  }
 }
